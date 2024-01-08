@@ -1,0 +1,32 @@
+body {
+    background-image: URL("background.jpg");
+    background-size: cover;
+}
+
+#header {
+    font-size: 45px;
+    width: 75%;
+    margin: 5px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+#footer {
+    font-size: 15px;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 2;
+}
+
+canvas {
+    border: 5px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 50px lightgray;
+}
+
+#input {
+    width: 450px;
+    height: 45px;
+    font-size: 30px;
+    border-radius: 15px;
+}
